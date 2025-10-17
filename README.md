@@ -148,11 +148,3 @@ En tu `pom.xml`, asegúrate de incluir:
     </dependency>
 </dependencies>
 ```
-
----
-
-## 🧾 8. Resultado esperado
-
-Cuando inicies la aplicación, deberías ver algo como esto en la consola:
-
-```
