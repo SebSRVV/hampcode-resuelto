@@ -1,0 +1,22 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	(revision 3b3892e91fa864aa95c91ce8667fa2277020e8f7)
++++ b/README.md	(date 1760659351820)
+@@ -1,0 +1,12 @@
++
++
++CREATE TABLE memberships (
++id BIGSERIAL PRIMARY KEY,
++member_name VARCHAR(100) NOT NULL,
++membership_type VARCHAR(20) NOT NULL,
++months_subscribed INTEGER NOT NULL,
++months_remaining INTEGER NOT NULL,
++membership_price NUMERIC(10, 2) NOT NULL,
++monthly_visits INTEGER NOT NULL DEFAULT 0,
++description VARCHAR(255) NOT NULL
++);
+\ No newline at end of file
