@@ -57,7 +57,7 @@ mvn spring-boot:run
 * Ejecuta la clase principal:
 
   ```
-  com.sebrvv.name.NameApplication
+  com.tunombre.name.NameApplication
   ```
 
 ---
